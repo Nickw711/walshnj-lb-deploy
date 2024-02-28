@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        GITHUB_URL = 'https://github.com/walshnj-lb-deploy/metallb-deploy.git'  // <---- Change this to match your cloned repository
+        GITHUB_URL = 'https://github.com/Nickw711/walshnj-lb-deploy.git'  // <---- Change this to match your cloned repository
         KUBECONFIG = credentials('walshnj-225')   // <---- Change this to match your kubernetes cluster credentials
     }
 
